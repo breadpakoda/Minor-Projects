@@ -1,0 +1,64 @@
+*{
+    font-family: 'Young Serif';
+
+}
+body{
+    background-color:rgb(238, 228, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(71, 68, 68);
+
+}
+.card{
+    
+    
+    width:400px;
+    background-color:white;
+    border-radius:10px;
+    margin-top:20px;
+    padding:25px;
+    text-align:justify;
+    font-size:12px;
+}
+.card img{
+    width:100%;
+    border-radius:10px;
+    height:200px;
+}
+#main{
+    
+    background-color:rgba(253, 215, 222, 0.297);
+    border-radius:6px;
+    padding:10px;
+    padding-right:0;
+    line-height:20px;
+    font-family:'Arial';
+
+    
+}
+#main h1{
+    color:rgb(128, 62, 132);
+    font-size:15px;
+}
+
+ h2{
+    font-size:15px;
+    color:rgb(124, 62, 36);
+}
+ h3{
+    font-size:15px;
+    color:rgb(124, 62, 36);
+}
+ h4{
+    font-size:15px;
+    color:rgb(124, 62, 36);
+}
+#table{
+    word-spacing:200px;
+    flex-direction:column;
+    font-family:'Arial';
+}
+#font{
+    font-family:'Arial';
+}
