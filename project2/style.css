@@ -1,0 +1,96 @@
+body{
+    background-color:rgb(22, 21, 21);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    font-family: sans-serif;
+    
+}
+.card{
+    width:350px;
+    background-color:rgb(34, 33, 33);
+    border-radius: 10px;
+    padding:30px;
+}
+#name{
+    Color:white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+#location{
+    color:yellow;
+    font-size:14px;
+    text-align:center;
+    font-weight: normal;
+}
+#role{
+    color:white;
+    text-align:center;
+    font-size:14px;
+    font-weight: normal;
+}
+img{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    object-fit: cover;
+    border-radius:50%;
+    height:90px;
+    width:90px
+    
+
+}
+#github {
+    display:flex;
+    height:50px;
+    background-color:rgb(68, 68, 68);
+    border-radius:7px;
+    align-items: center;   
+    justify-content: center;
+    color:white;
+    
+    
+}
+#frontendmentor {
+    display:flex;
+    height:50px;
+    background-color:rgb(68, 68, 68);
+    border-radius:7px;
+    align-items: center;   
+    justify-content: center;
+    color:white;
+}
+#linkedin{
+    display:flex;
+    height:50px;
+    background-color:rgb(68, 68, 68);
+    border-radius:7px;
+    align-items: center;   
+    justify-content: center;
+    color:white;
+}
+#twitter{
+    display:flex;
+    height:50px;
+    background-color:rgb(68, 68, 68);
+    border-radius:7px;
+    align-items: center;   
+    justify-content: center;
+    color:white;
+}
+#instagram{
+    display:flex;
+    height:50px;
+    background-color:rgb(68, 68, 68);
+    border-radius:7px;
+    align-items: center;   
+    justify-content: center;
+    color:white;
+}
+#linkes{
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    gap: 16px;   
+}
