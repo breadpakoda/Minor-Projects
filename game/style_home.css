@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    height:100vh;
+    background-color: rgb(29, 28, 28);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+    
+
+
+
+.tictactoe{
+    height:50%;
+    width:50%;
+    border:solid white 2px;
+    border-radius:20px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+    
+}    
