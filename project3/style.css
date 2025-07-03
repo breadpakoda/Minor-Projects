@@ -1,0 +1,197 @@
+
+body {
+  background: linear-gradient(rgb(25, 10, 39)50%, rgb(12, 21, 69));
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom:50px ;
+  font-family: 'Noto Sans';
+}   
+
+.search_box {
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(31, 37, 53);
+  height: 50px;
+  width: calc(100% - 30px);
+  border-radius: 20px;
+  background-size: cover;
+  padding: 15px;
+
+}
+.search_box input {
+  all:unset;
+  width: 900px;
+  color: white;
+  background-color:rgb(31, 37, 53);
+  font-size: 20px;
+}
+
+#theme{
+  height: 30px;
+  width: 30px;
+}
+
+
+
+
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  border-radius: 4px;
+  position: relative;
+}
+
+.heading h1 {
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+.activity{
+  display:flex;
+  gap:10px;
+
+
+}
+.activity button{
+  all:unset;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:rgb(31, 37, 53);
+  border-radius:20px;
+  height:100%;
+  color:white;
+  border:solid rgb(79, 85, 108) 1px;
+  cursor: pointer;
+}
+
+
+
+
+#brightnessbutton {
+  all: unset;
+  background-color: rgb(47, 53, 75);
+  border-radius: 16px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border:solid rgb(79, 85, 108) 1px;
+}
+.content{
+ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom:15px;
+  
+}
+
+  
+
+.boxx{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:20px;
+  width: calc(100%-20px);
+  height: 200px;
+  background-color: rgb(31, 37, 53);
+  border-radius:20px;
+  border:solid rgb(79, 85, 108) 1px;
+
+}
+.inbox{
+  display:flex;
+  gap:20px;
+}
+.iconimage{
+  height:80px;
+}
+.boxx h1{
+  margin-top:0px;
+  color:white;
+  font-size:20px;
+}
+.boxx p{
+  color:rgb(160, 162, 174);
+}
+.boxbutton button{
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
+  border:solid 2px rgb(81, 87, 103);
+  color:white;
+  justify-content: center;
+  background-color:rgb(31, 37, 53);
+  height:40px;
+  width:100px;
+  border-radius: 20px;
+  
+}
+.boxbutton button:active {
+  background-color: rgb(235, 86, 81) Button turns orange while pressed
+}
+.boxbutton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 26px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: rgb(84, 90, 106);
+  border-radius: 34px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.switch input:checked + .slider {
+  background-color: rgb(241, 89, 82);
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
